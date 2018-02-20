@@ -210,20 +210,4 @@
     <Phone>(231) 640-2327</Phone>
     <URL>lakeannbrewing.com</URL>
   </Brewery>
-  <Brewery>
-    <Id>0</Id>
-    <Name>Fred's Fun</Name>
-    <Address>123 Second Ave.</Address>
-    <City>Cedar</City>
-    <State>MI</State>
-    <Zip>49664</Zip>
-  </Brewery>
-  <Brewery>
-    <Id>22</Id>
-    <Name>ddd</Name>
-  </Brewery>
-  <Brewery>
-    <Id>23</Id>
-    <Name>xxx</Name>
-  </Brewery>
 </Breweries>

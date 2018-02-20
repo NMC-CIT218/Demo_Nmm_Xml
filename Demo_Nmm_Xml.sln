@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Nmm_Xml.NoPercistence"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Nmm_Xml.Percistence", "Demo_Nmm_Xml.Percistence\Demo_Nmm_Xml.Percistence.csproj", "{B85D592A-8B8A-47C1-A67A-4198A4664DB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Nmm_Xml", "Demo_Nmm_Xml\Demo_Nmm_Xml.csproj", "{AA4D9936-5D08-4BF8-B256-FCFE3D10A300}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Nmm_Xml.S1.Solution", "Demo_Nmm_Xml.S1.Solution\Demo_Nmm_Xml.S1.Solution.csproj", "{AA4D9936-5D08-4BF8-B256-FCFE3D10A300}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{638B48B3-A40B-42C5-A309-F2BD3C99096D}"
 EndProject

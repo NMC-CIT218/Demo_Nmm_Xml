@@ -1,11 +1,10 @@
-﻿@*@model IEnumerable<Demo_Nmm_Xml.Models.Brewery>*@
-@model IEnumerable<Demo_Nmm_Xml.Models.Brewery>
+﻿@model IEnumerable<Demo_Nmm_Xml.Models.Brewery>
 
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Northern Michigan Brew Pubs</h2>
+<h2>Northern Michigan Breweries</h2>
 
 @using (Html.BeginForm())
 {
@@ -20,7 +19,6 @@
             @Html.Label("Filter by City", htmlAttributes: new { @class = "control-label col-md-2" })
             @Html.DropDownList("cityFilter",
                     new SelectList(@ViewBag.Cities),
-                    //new SelectList(new List<string>() { "Cedar" }),
                     "All Cities",
                     new { @class = "form-control" })
         </div>
@@ -33,8 +31,11 @@
     </div>
 }
 
-<table class="table">
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
 
+<table class="table">
     <tr>
         <th>
             @Html.ActionLink(@Html.DisplayNameFor(model => model.Name).ToHtmlString(), "Index", new { sortOrder = "Name" })
@@ -58,7 +59,7 @@
                 @Html.DisplayFor(modelItem => item.City)
             </td>
             <td>
-                <a href="http://@Html.DisplayFor(modelItem => item.URL)" target="_blank">@Html.DisplayFor(modelItem => item.URL)</a>
+                @Html.DisplayFor(modelItem => item.URL)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
@@ -67,9 +68,4 @@
             </td>
         </tr>
     }
-
 </table>
-
-<div class="form-group">
-    <input type="button" class="btn" value="Add a Brew Pub" onclick="location.href='@Url.Action("Create", "Brewery")'" />
-</div>
