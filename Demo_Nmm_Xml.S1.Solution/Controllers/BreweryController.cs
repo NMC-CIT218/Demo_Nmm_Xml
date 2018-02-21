@@ -7,6 +7,8 @@ using PagedList;
 
 namespace Demo_Nmm_Xml.Controllers
 {
+    // TODO refactor the Index action and view to a single action with a get method for pagination
+
     public class BreweryController : Controller
     {
         [HttpGet]
@@ -58,7 +60,7 @@ namespace Demo_Nmm_Xml.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index(string searchCriteria, string cityFilter)
+        public ActionResult Index(string searchCriteria, string cityFilter, int? page)
         {
             //
             // instantiate a repository
@@ -94,6 +96,13 @@ namespace Demo_Nmm_Xml.Controllers
             {
                 breweries = breweries.Where(brewery => brewery.City == cityFilter);
             }
+
+            //
+            // set parameters and paginate the breweries list
+            //
+            int pageSize = 5;
+            int pageNumber = (page ?? 1);
+            breweries = breweries.ToPagedList(pageNumber, pageSize);
 
             return View(breweries);
         }
