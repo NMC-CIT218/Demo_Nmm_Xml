@@ -72,9 +72,13 @@
                 @Html.DisplayFor(modelItem => item.URL)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+
+                <div class="form-group-sm no-color btn-sm">
+                    <input type="button" value="Details" class="btn btn-default" onclick="location.href='@Url.Action("Details", "Brewery", new { id = item.Id })'"/>
+                    <input type="button" value="Edit" class="btn btn-default" onclick="location.href='@Url.Action("Edit", "Brewery", new { id = item.Id })'" />
+                    <input type="button" value="Delete" class="btn btn-danger" onclick="location.href='@Url.Action("Delete", "Brewery", new { id = item.Id })'" />
+                </div> 
+
             </td>
         </tr>
     }

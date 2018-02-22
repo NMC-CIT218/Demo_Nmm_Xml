@@ -210,36 +210,4 @@
     <Phone>(231) 640-2327</Phone>
     <URL>lakeannbrewing.com</URL>
   </Brewery>
-  <Brewery>
-    <Id>0</Id>
-    <Name>Fred's Fun</Name>
-    <Address>123 Second Ave.</Address>
-    <City>Cedar</City>
-    <State>MI</State>
-    <Zip>49664</Zip>
-  </Brewery>
-  <Brewery>
-    <Id>23</Id>
-    <Name>xxx</Name>
-  </Brewery>
-  <Brewery>
-    <Id>22</Id>
-    <Name>dddx</Name>
-    <Address>dd</Address>
-    <City>d</City>
-    <State>mi</State>
-    <Zip>88888</Zip>
-    <Phone>444</Phone>
-    <URL>ddd</URL>
-  </Brewery>
-  <Brewery>
-    <Id>24</Id>
-    <Name>aaa</Name>
-    <Address>6625 Echo Valley Road, Please Select</Address>
-    <City>Empire</City>
-    <State>MI</State>
-    <Zip>49630</Zip>
-    <Phone>2314994045</Phone>
-    <URL>run.com</URL>
-  </Brewery>
 </Breweries>
