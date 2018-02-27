@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Nmm_Xml.S2.Solution", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Nmm_Xml.S2.Starter", "Demo_Nmm_Xml.S2.Starter\Demo_Nmm_Xml.S2.Starter.csproj", "{74B75A14-AF5A-49E4-A3E9-95E78A7527F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteThis", "DeleteThis\DeleteThis.csproj", "{F267EEF2-A149-4A58-BF9C-AA3ABAAA9F18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteThis2", "DeleteThis\DeleteThis2.csproj", "{F267EEF2-A149-4A58-BF9C-AA3ABAAA9F18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
